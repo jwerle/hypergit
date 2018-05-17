@@ -1,0 +1,26 @@
+{
+  "name": "hypergit",
+  "version": "1.0.0",
+  "description": "Store Git in a Hyperdrive",
+  "main": "index.js",
+  "scripts": {
+    "test": ":"
+  },
+  "keywords": [
+    "git",
+    "hyperdrive",
+    "isomorphic"
+  ],
+  "author": "Joseph Werle <werle@littlstar.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hyperdrive": "^9.12.3",
+    "isomorphic-git": "^0.12.3",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "hyperdiscovery": "^7.1.0",
+    "pify": "^3.0.0",
+    "random-access-memory": "^3.0.0"
+  }
+}
